@@ -1,6 +1,6 @@
 <h1 align='center'>[ESX] Benzo Car Rentals</a></h1>
 
-Want to drive a fancy car but can`t too broke to buy one? No Worries! Here at TotallyRealCarRentals, we have you covered!
+Want to drive a fancy car but too broke to buy one? No Worries! Here at TotallyRealCarRentals, we have you covered!
 
 Head on over to one of our ~~Drug Labs~~ Offices and pick up the latest and greatest for a low low price of ~~your soul~~ $69.99 Today!
 
