@@ -1,3 +1,5 @@
+--- For Support join https://discord.gg/pyKDCByzUk
+
 local Rented = false
 
 local function SpawnCar(SelectedData, CurrentRental)
