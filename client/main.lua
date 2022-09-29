@@ -16,11 +16,7 @@ local function SpawnCar(SelectedData, CurrentRental)
     end, CurrentRental, SelectedData.Label,SelectedData.SpawnName, IsThisModelACar(joaat(SelectedData.SpawnName)))
 end
 
-RegisterCommand("fix", function()
-    DoScreenFadeOut(1500)
-    Wait(1500)
-     DoScreenFadeIn(1500)
-end)
+
 
 local function ReturnCar()
     if Rented then
