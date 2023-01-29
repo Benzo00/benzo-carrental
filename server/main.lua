@@ -31,7 +31,7 @@ ESX.RegisterServerCallback("benzo-carrental:givepapers", function(source, cb, Cu
         return
     end
     local current_rental = Config.CarRental[CurrentRental]
-    ESX.OneSync.SpawnVehicle(model, vector3(current_rental.VehicleSpawncoords.xyz), 0.0, false,{plate = Plate, }, function(vehicle)
+    ESX.OneSync.SpawnVehicle(model, vector3(current_rental.VehicleSpawncoords.xyz), 0.0{plate = Plate, }, function(vehicle)
         local vehicle = NetworkGetEntityFromNetworkId(vehicle)
         TaskWarpPedIntoVehicle(GetPlayerPed(source), vehicle, -1)
         xPlayer.addInventoryItem(Config.CarPapers, 1, " Proof of Rental Ownership of " .. Car .. " Plate:" .. Plate)
